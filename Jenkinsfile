@@ -12,7 +12,7 @@
         stage('Build Frontend') {
             steps {
                 echo '🎨 Building frontend...'
-                bat 'type frontend\\hello.html'
+                bat 'type fronted\\hello.html'
             }
         }
 
