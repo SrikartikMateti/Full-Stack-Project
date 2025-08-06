@@ -5,14 +5,14 @@
         stage('Build Backend') {
             steps {
                 echo '🔧 Building backend...'
-                bat 'type backend\\server.js'
+                bat 'type backend\\hi.py'
             }
         }
 
         stage('Build Frontend') {
             steps {
                 echo '🎨 Building frontend...'
-                bat 'type frontend\\index.html'
+                bat 'type frontend\\hello.html'
             }
         }
 
